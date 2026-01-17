@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: backend       
-          image: naveen724/placement_system:lts
+          image: naveen724/placement_system:30
           ports:
             - containerPort: 5173
 
