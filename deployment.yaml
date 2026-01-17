@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: backend
+  namespace: backend
   labels:
     app: backend
 spec:
@@ -15,8 +16,8 @@ spec:
         app: backend
     spec:
       containers:
-        - name: backend       
+        - name: backend
           image: naveen724/placement_system:30
+          imagePullPolicy: Always
           ports:
             - containerPort: 5173
-
