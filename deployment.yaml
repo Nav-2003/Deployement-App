@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: backend
-image: /placement_system:6
+image: naveen724/placement_system:8
           imagePullPolicy: Always
           ports:
             - containerPort: 5173
