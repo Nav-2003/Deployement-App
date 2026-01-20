@@ -11,4 +11,4 @@ spec:
     app: backend
   ports:
     - port: 80          # External port
-      targetPort: 5173  # Container port
+      targetPort: 80  # Container port
