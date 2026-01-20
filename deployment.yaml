@@ -20,4 +20,4 @@ spec:
           image: naveen724/placement_system:11
           imagePullPolicy: Always
           ports:
-            - containerPort: 5173
+            - containerPort: 80
