@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: naveen724/service-fronted:15
+          image: naveen724/service-fronted:16
           imagePullPolicy: Always
           ports:
             - containerPort: 80
