@@ -5,10 +5,10 @@ metadata:
   namespace: frontend
   labels:
     app: frontend
-  spec:
-    type: ClusterIP
-    selector:
-      app: frontend
-    ports:
-      - port: 80
-        targetPort: 3000
+spec:
+  type: ClusterIP
+  selector:
+    app: frontend
+  ports:
+    - port: 80
+      targetPort: 3000
